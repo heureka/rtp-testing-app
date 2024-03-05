@@ -1,0 +1,32 @@
+.c-header {
+  border-bottom: 1px solid $colorGrey--200;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 1.25rem 0;
+}
+
+.header__logo-container {
+  flex: none;
+  margin-right: 3rem;
+
+  @media #{$lteLine} {
+    flex-shrink: 1;
+  }
+
+  @media #{$gtLine} {
+    position: relative;
+    z-index: 500;
+  }
+}
+
+.header__logo {
+  display: block;
+  width: 9rem;
+
+  @media #{$lteLayout} {
+    width: 8rem;
+  }
+}

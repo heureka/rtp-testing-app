@@ -1,0 +1,40 @@
+.product {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0;
+
+  @media #{$lteLine} {
+    grid-template-columns: 1fr;
+  }
+}
+
+.product__image {
+  display: flex;
+  justify-content: center;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media #{$lteLine} {
+    margin-bottom: 1rem;
+  }
+}
+
+.product__info {
+}
+
+.product__description {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+
+  &[data-state='open'] {
+    -webkit-line-clamp: unset;
+    line-clamp: unset;
+  }
+}
