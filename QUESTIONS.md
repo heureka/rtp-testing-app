@@ -4,7 +4,7 @@
 
 1. Application stack
 
-- How would you connect other micro-frontend to keep persistency? Design technological solution for connection for example product compare.
+- How would you connect other micro-frontend to keep persistency? Design technological solution for connect other frontend (for example product compare).
 
 ## General
 
@@ -39,6 +39,7 @@
 
 7. Security
 
+- How would you secure form inputs?
 - How do you handle sensitive information, such as API keys and user data, in the codebase?
 
 8. Collaboration and Code Reviews
