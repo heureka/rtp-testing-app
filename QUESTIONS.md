@@ -2,9 +2,9 @@
 
 ## Specific
 
-1. Application stack
+1. Microfrontends
 
-- How would you connect other micro-frontend to keep persistency? Design technological solution for connect other frontend (for example product compare).
+- How would you design solution with multiple microfrontends? For example adding shared header and footer microfrontends.
 
 ## General
 
