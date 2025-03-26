@@ -14,16 +14,17 @@
 
 - 10 min - intro + requirements
 - 5 min - preparation
-- 20 min - programming
-- 40 min - CR + design questions
+- 25 min - programming
+- 35 min - CR + design questions
 - 5 min - feedback
 
 ## Challenge task
 
-1. Load 100 products
-2. Display products in grid in category on url `/`
-3. Implement pagination
-4. Implement sorting
-5. Use correct links
-6. Connect category to product detail on url `/p/<id>`
+1. Load and display multiple products in grid on url `/`
+2. Implement pagination
+3. Implement sorting
+4. Connect category to product detail on url `/p/<id>`
+
+## Notes
+
 7. Must work without javascript
